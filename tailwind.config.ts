@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      maxWidth: {
+        '600': '600px',
+      },
+      colors: {
+        primary: '#006284',
+        secondary: '#99DCFF',
+        white: '#F1F1E6',
+        orange: '#ED982A',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
