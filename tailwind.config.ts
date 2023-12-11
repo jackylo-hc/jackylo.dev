@@ -16,6 +16,7 @@ const config: Config = {
         themeLightBlue: '#99DCFF',
         themeWhite: '#F1F1E6',
         themeOrange: '#ED982A',
+        themeGray: '#374955',
       },
     },
   },
