@@ -1,0 +1,12 @@
+[
+  {
+    "image": {
+      "src": "https://placehold.co/500/jpg",
+      "alt": "Project alt"
+    },
+    "link": "https://www.google.com",
+    "title": "Project 1",
+    "tech": "HTML | CSS | Javascript",
+    "desc": "lorem ipsum"
+  }
+]

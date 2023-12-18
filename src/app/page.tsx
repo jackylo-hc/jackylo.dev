@@ -1,8 +1,12 @@
 import Image from 'next/image';
 import { GithubCircle, Linkedin, Instagram, MapPin } from 'iconoir-react';
+import parseHtml from 'html-react-parser';
+import clsx from 'clsx';
+
 import profile from '@/data/profile.json';
 import experiences from '@/data/experiences.json';
-import parseHtml from 'html-react-parser';
+import projects from '@/data/projects.json';
+import education from '@/data/education.json';
 
 export default function Home() {
   return (
@@ -69,52 +73,31 @@ export default function Home() {
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-themeBlue mb-4">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="border border-themeLightBlue bg-slate-50 rounded-3xl">
-              <div className="p-4 flex flex-col">
-                <Image
-                  src="https://placehold.co/500/jpg"
-                  alt="Project 1 Image"
-                  width={500}
-                  height={500}
-                  className="w-full"
-                />
-                <div className="mt-2 text-themeBlue font-bold text-xl">title</div>
-                <div className="mt-2 text-themeOrange">tech stack</div>
-                <div className="mt-2">desc</div>
+            {projects.map((project) => (
+              <div className="border border-themeLightBlue bg-slate-50 rounded-3xl" key={project.title}>
+                <div className="p-4 flex flex-col">
+                  <Image src={project.image.src} alt={project.image.alt} width={500} height={500} className="w-full" />
+                  <div className="mt-2 text-themeBlue font-bold text-xl">{project.title}</div>
+                  <div className="mt-2 text-themeOrange">{project.tech}</div>
+                  <div className="mt-2">{project.desc}</div>
+                </div>
               </div>
-            </div>
-            <div className="border border-themeLightBlue bg-slate-50 rounded-3xl">
-              <div className="p-4 flex flex-col">
-                <Image
-                  src="https://placehold.co/500/jpg"
-                  alt="Project 1 Image"
-                  width={500}
-                  height={500}
-                  className="w-full"
-                />
-                <div className="mt-2 text-themeBlue font-bold text-xl">title</div>
-                <div className="mt-2 text-themeOrange">tech stack</div>
-                <div className="mt-2">desc</div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
         {/** Education */}
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-themeBlue mb-4">Education</h2>
           <div className="border border-themeLightBlue bg-slate-50 rounded-3xl">
-            <div className="p-4 border-b border-b-themeLightBlue">
-              <div className="text-xl font-bold">hong kong polyu</div>
-              <div>interactive media</div>
-            </div>
-            <div className="p-4 border-b border-b-themeLightBlue">
-              <div className="text-xl font-bold">cccu</div>
-              <div>cimp</div>
-            </div>
-            <div className="p-4">
-              <div className="text-xl font-bold">sjc</div>
-              <div>hkdse</div>
-            </div>
+            {education.map((item, index) => (
+              <div
+                className={clsx('p-4', index !== education.length - 1 && 'border-b border-b-themeLightBlue')}
+                key={item.name}
+              >
+                <div className="text-xl font-bold">{item.name}</div>
+                <div>{item.program}</div>
+              </div>
+            ))}
           </div>
         </div>
       </main>
