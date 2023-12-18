@@ -49,17 +49,17 @@ export default function Home() {
         {/** Experiences */}
         <div className="mt-8">
           <h2 className="text-2xl font-bold text-themeBlue mb-4">Experience</h2>
-          <div className="flex flex-col gap-y-1">
+          <div className="flex flex-col">
             {experiences.map((experience) => (
               <div className="flex" key={experience.company}>
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full overflow-hidden">
-                    <Image src={experience.logo.src} alt={experience.logo.alt} width={40} height={40} />
+                  <div className="w-14 h-14 rounded-full overflow-hidden">
+                    <Image src={experience.logo.src} alt={experience.logo.alt} width={56} height={56} />
                   </div>
                   <div className="w-0.5 grow bg-slate-200 my-2"></div>
                 </div>
-                <div className="ml-4 mt-1">
-                  <div className="text-xl font-semibold">{experience.title}</div>
+                <div className="ml-4 mt-2">
+                  <div className="text-2xl font-semibold">{experience.title}</div>
                   <div className="text-sm tracking-tight text-themeOrange">
                     {experience.company} | {experience.year} | {experience.location}
                   </div>
