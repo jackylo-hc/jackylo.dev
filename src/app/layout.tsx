@@ -10,9 +10,18 @@ const inconsolata = Inconsolata({ subsets: ['latin'], display: 'auto' });
 export const metadata: Metadata = {
   title: 'Jacky | Front End Developer',
   description: 'Jacky Lo is a 7+ years experience Front End Developer currently located in Hong Kong',
-  keywords: ['jackylo.dev', 'jackylo', 'Jacky Lo', 'jackylo.hc@gmail.com'],
+  keywords: [
+    'jackylo.dev',
+    'jackylo',
+    'Jacky Lo',
+    'jacky lo',
+    'jackylo.hc@gmail.com',
+    'hong kong',
+    'front end developer',
+    'front end engineer',
+  ],
   authors: {
-    name: 'Jacky Lo'
+    name: 'Jacky Lo',
   },
 };
 

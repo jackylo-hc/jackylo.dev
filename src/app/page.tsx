@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import { GithubCircle, Linkedin, Instagram, MapPin } from 'iconoir-react';
 import profile from '@/data/profile.json';
+import experiences from '@/data/experiences.json';
+import parseHtml from 'html-react-parser';
 
 export default function Home() {
   return (
@@ -31,8 +33,34 @@ export default function Home() {
           <div className="p-4">{profile.intro}</div>
           <div className="p-4 flex gap-2 flex-wrap">
             {profile.skills.map((item) => (
-              <div className="inline-flex px-2 py-0.5 text-xs border ring-1 bg-themeLightBlue/20 ring-inset ring-themeLightBlue/50 rounded-md text-themeBlue font-bold" key={item}>
+              <div
+                className="inline-flex px-2 py-0.5 text-xs border ring-1 bg-themeLightBlue/20 ring-inset ring-themeLightBlue/50 rounded-md text-themeBlue font-bold"
+                key={item}
+              >
                 {item}
+              </div>
+            ))}
+          </div>
+        </div>
+        {/** Experiences */}
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-themeBlue mb-4">Experience</h2>
+          <div className="flex flex-col gap-y-1">
+            {experiences.map((experience) => (
+              <div className="flex" key={experience.company}>
+                <div className="flex flex-col items-center">
+                  <div className="w-10 h-10 rounded-full overflow-hidden">
+                    <Image src={experience.logo.src} alt={experience.logo.alt} width={40} height={40} />
+                  </div>
+                  <div className="w-0.5 grow bg-slate-200 my-2"></div>
+                </div>
+                <div className="ml-4 mt-1">
+                  <div className="text-xl font-semibold">{experience.title}</div>
+                  <div className="text-sm tracking-tight text-themeOrange">
+                    {experience.company} | {experience.year} | {experience.location}
+                  </div>
+                  <div className="mt-1">{parseHtml(experience.desc)}</div>
+                </div>
               </div>
             ))}
           </div>
@@ -68,38 +96,6 @@ export default function Home() {
                 <div className="mt-2 text-themeOrange">tech stack</div>
                 <div className="mt-2">desc</div>
               </div>
-            </div>
-          </div>
-        </div>
-        {/** Experiences */}
-        <div className="mt-8">
-          <h2 className="text-2xl font-bold text-themeBlue mb-4">Experience</h2>
-          <div className="flex">
-            <div className="flex flex-col items-center">
-              <div className="w-10 h-10 rounded-full overflow-hidden">
-                <Image src="https://placehold.co/40/jpg" alt="Company Logo" width={40} height={40} />
-              </div>
-              <div className="w-0.5 grow bg-slate-200 my-2"></div>
-            </div>
-            <div className="ml-4 mt-2">
-              <div>Title</div>
-              <div>Company name</div>
-              <div>start year to end year</div>
-              <div>location</div>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="flex flex-col items-center">
-              <div className="w-10 h-10 rounded-full overflow-hidden">
-                <Image src="https://placehold.co/40/jpg" alt="Company Logo" width={40} height={40} />
-              </div>
-              <div className="w-0.5 grow bg-slate-200 my-2"></div>
-            </div>
-            <div className="ml-4 mt-2">
-              <div>Title</div>
-              <div>Company name</div>
-              <div>start year to end year</div>
-              <div>location</div>
             </div>
           </div>
         </div>
