@@ -9,6 +9,11 @@ const inconsolata = Inconsolata({ subsets: ['latin'], display: 'auto' });
 
 export const metadata: Metadata = {
   title: 'Jacky | Front End Developer',
+  description: 'Jacky Lo is a 7+ years experience Front End Developer currently located in Hong Kong',
+  keywords: ['jackylo.dev', 'jackylo', 'Jacky Lo', 'jackylo.hc@gmail.com'],
+  authors: {
+    name: 'Jacky Lo'
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,0 +1,40 @@
+{
+  "profilePic": {
+    "src": "https://placehold.co/80/jpg",
+    "alt": "Jacky Lo Profile Pic"
+  },
+  "title": "Front End Engineer",
+  "name": "Jacky Lo",
+  "location": "Hong Kong",
+  "socialMedia": [
+    {
+      "icon": "github",
+      "url": "https://github.com/jackylo-hc"
+    },
+    {
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/jackylo-hc/"
+    },
+    {
+      "icon": "instagram",
+      "url": "https://www.instagram.com/imshing.p"
+    }
+  ],
+  "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum corrupti et vel, eveniet maiores possimus molestiae dolores obcaecati mollitia incidunt reiciendis exercitationem animi cupiditate nam facere voluptatibus quia, quis modi.",
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "SASS",
+    "TailwindCSS",
+    "Javascript",
+    "Typescript",
+    "jQuery",
+    "React.js",
+    "Next.js",
+    "Redux.js",
+    "Git",
+    "AWS",
+    "Vercel",
+    "Turborepo"
+  ]
+}

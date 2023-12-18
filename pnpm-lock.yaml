@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   iconoir-react:
-    specifier: ^7.1.0
-    version: 7.1.0(react@18.2.0)
+    specifier: ^7.2.0
+    version: 7.2.0(react@18.2.0)
   next:
     specifier: 14.0.4
     version: 14.0.4(react-dom@18.2.0)(react@18.2.0)
@@ -1425,8 +1425,8 @@ packages:
     engines: {node: '>= 0.4.0'}
     dev: true
 
-  /iconoir-react@7.1.0(react@18.2.0):
-    resolution: {integrity: sha512-I3t5tgL7BxLnY+q/2GC7Vt+dVXtfZmrh7E4ifIL75+5wewUnVJf3k+gpaH4sJNKAswU9Wv/fHhzvMlrIPnAo+w==}
+  /iconoir-react@7.2.0(react@18.2.0):
+    resolution: {integrity: sha512-FSo0Napse13rfxrtaxPx6pUH3/cZ+IsNHB5MiBmDJ/VZ/w+4UlCN8zx7bW/gjBq5U3jN+kTbk+ZXQWeWyjM47Q==}
     peerDependencies:
       react: ^16.8.6 || ^17 || ^18
     dependencies:
