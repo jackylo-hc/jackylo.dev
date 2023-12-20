@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="w-full h-1 bg-gradient-to-r from-themeBlue via-themeLightBlue to-themeWhite"></div>
-      <main className="max-w-2xl mx-auto px-4 py-6 mt-4">
+      <main className="max-w-2xl mx-auto px-6 py-6 mt-4 md:px-4">
         {/** Profile  */}
         <div className="border border-themeLightBlue bg-slate-50 rounded-3xl">
           <div className="flex flex-col items-center gap-y-2 p-4 border-b border-b-themeLightBlue">
@@ -76,7 +76,7 @@ export default function Home() {
             {projects.map((project) => (
               <div className="border border-themeLightBlue bg-slate-50 rounded-3xl" key={project.title}>
                 <div className="p-4 flex flex-col">
-                  <Image src={project.image.src} alt={project.image.alt} width={500} height={500} className="w-full" />
+                  <Image src={project.image.src} alt={project.image.alt} width={500} height={500} className="w-full rounded-3xl overflow-hidden" />
                   {project.link && (
                     <a
                       href={project.link}
