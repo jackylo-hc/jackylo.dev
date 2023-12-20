@@ -1,24 +1,57 @@
 [
   {
     "logo": {
-      "src": "/assets/choco-up.jpg",
+      "src": "/assets/logo/choco-up.jpg",
       "alt": "Choco Up Logo"
     },
     "title": "Senior Frontend Engineer",
     "company": "Choco Up",
     "year": "Aug 2022 to Sept 2023",
     "location": "Hong Kong",
-    "desc": "Choco Up is a Revenue based financing company in Hong Kong and Singapore. <br/><br> I am the main front end developer in Choco and design and develop the front end architecture"
+    "desc": "Choco Up is a Revenue based financing company in Hong Kong and Singapore. <br/><br> I am the main front end developer and responsible for building company portal layout and structuring frontend architecture."
   },
   {
     "logo": {
-      "src": "/assets/hkai.jpeg",
+      "src": "/assets/logo/hkai.jpg",
       "alt": "HKAI Logo"
     },
     "title": "Senior Developer",
     "company": "HKAI Limited",
-    "year": "Aug 2022 to Sept 2023",
+    "year": "Apr 2021 to Jul 2022",
     "location": "Hong Kong",
-    "desc": "Choco Up is a Revenue based financing company in Hong Kong and Singapore. <br/><br> I am the main front end developer in Choco and design and develop the front end architecture"
+    "desc": "HKAI develop an Ad Platform for HK TV Publisher. <br/><br/> I am mainly focus on developing front end layout for the Ad Platform."
+  },
+  {
+    "logo": {
+      "src": "/assets/logo/hang-lung.jpg",
+      "alt": "Hang Lung Limited Logo"
+    },
+    "title": "Senior Analyst Programmer - Analyst Programmer",
+    "company": "Hang Lung Limited",
+    "year": "Aug 2020 to Apr 2021",
+    "location": "Hong Kong",
+    "desc": "Worked with 2 teammates to develop web portals for Mainland China tenant users."
+  },
+  {
+    "logo": {
+      "src": "/assets/logo/fitch.jpg",
+      "alt": "Fitch Logo"
+    },
+    "title": "Developer",
+    "company": "Fitch Design",
+    "year": "Nov 2018 to Aug 2020",
+    "location": "Hong Kong",
+    "desc": "Developed several clients' corporate website like K11 Musea, ITC Mall, Landor and Fitch website etc."
+  },
+  {
+    "logo": {
+      "src": "/assets/logo/isobar.jpg",
+      "alt": "Isobar Logo"
+    },
+    "title": "Web Developer",
+    "company": "Isobar",
+    "year": "Apr 2017 to Oct 2018",
+    "location": "Hong Kong",
+    "desc": "Maintained and developer Rosewood Hotels website, building campaign website for Estee Lauder and Samsonite."
   }
 ]

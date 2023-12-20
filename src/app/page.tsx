@@ -53,7 +53,7 @@ export default function Home() {
             {experiences.map((experience) => (
               <div className="flex" key={experience.company}>
                 <div className="flex flex-col items-center">
-                  <div className="w-14 h-14 rounded-full overflow-hidden">
+                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-slate-100">
                     <Image src={experience.logo.src} alt={experience.logo.alt} width={56} height={56} />
                   </div>
                   <div className="w-0.5 grow bg-slate-200 my-2"></div>
