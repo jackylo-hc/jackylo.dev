@@ -8,7 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inconsolata = Inconsolata({ subsets: ['latin'], display: 'auto' });
 
 export const metadata: Metadata = {
-  title: 'Jacky | Front End Developer',
+  title: 'Jacky Lo | Front End Developer',
   description: 'Jacky Lo is a 7+ years experience Front End Developer currently located in Hong Kong',
   keywords: [
     'jackylo.dev',
