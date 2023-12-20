@@ -1,12 +1,42 @@
 [
   {
     "image": {
-      "src": "https://placehold.co/500/jpg",
-      "alt": "Project alt"
+      "src": "/assets/projects/lnf-website.jpg",
+      "alt": "Landor and Fitch website preview"
     },
-    "link": "https://www.google.com",
-    "title": "Project 1",
-    "tech": "HTML | CSS | Javascript",
-    "desc": "lorem ipsum"
+    "link": "",
+    "title": "Landor and Fitch Website",
+    "tech": "React.js | Next.js | GSAP",
+    "desc": "Last project in Fitch. This is a one-page website using Next.js for development. Including number counting animation, smooth page scrolling etc."
+  },
+  {
+    "image": {
+      "src": "/assets/projects/ict-website.jpg",
+      "alt": "ITC Mall website preview"
+    },
+    "link": "http://itcmall.com.cn",
+    "title": "ITC Mall Website",
+    "tech": "React.js | Next.js | GSAP",
+    "desc": "Project in Fitch, first time for using Next.js on corporate website. Integrated with Umbraco CMS that work with back end developer."
+  },
+  {
+    "image": {
+      "src": "/assets/projects/bird-website.jpg",
+      "alt": "Bird Meditation website preview"
+    },
+    "link": "",
+    "title": "Bird Meditation Website",
+    "tech": "Gulp | Pug | SCSS | Babel",
+    "desc": "Project worked in Fitch. Developed new website for BIRD mediation company."
+  },
+  {
+    "image": {
+      "src": "/assets/projects/musea-website.jpg",
+      "alt": "K11 Musea website preview"
+    },
+    "link": "https://www.k11musea.com",
+    "title": "K11 Musea Website",
+    "tech": "Gulp | Pug | SCSS | ES6",
+    "desc": "Main developer for the project in Fitch. Created more than 20 pages of template and components for cms integration."
   }
 ]

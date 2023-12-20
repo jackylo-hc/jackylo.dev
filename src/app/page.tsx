@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { GithubCircle, Linkedin, Instagram, MapPin } from 'iconoir-react';
+import { GithubCircle, Linkedin, Instagram, MapPin, Link } from 'iconoir-react';
 import parseHtml from 'html-react-parser';
 import clsx from 'clsx';
 
@@ -77,7 +77,16 @@ export default function Home() {
               <div className="border border-themeLightBlue bg-slate-50 rounded-3xl" key={project.title}>
                 <div className="p-4 flex flex-col">
                   <Image src={project.image.src} alt={project.image.alt} width={500} height={500} className="w-full" />
-                  <div className="mt-2 text-themeBlue font-bold text-xl">{project.title}</div>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      className="mt-2 text-themeBlue font-bold text-xl flex items-center"
+                    >
+                      {project.title} <Link className="ml-2 text-sm" />
+                    </a>
+                  )}
+                  {!project.link && <div className="mt-2 text-themeBlue font-bold text-xl">{project.title}</div>}
                   <div className="mt-2 text-themeOrange">{project.tech}</div>
                   <div className="mt-2">{project.desc}</div>
                 </div>
