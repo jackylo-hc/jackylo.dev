@@ -34,7 +34,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <div className="p-4">{profile.intro}</div>
+          <div className="p-4">{parseHtml(profile.intro)}</div>
           <div className="p-4 flex gap-2 flex-wrap">
             {profile.skills.map((item) => (
               <div
