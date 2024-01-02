@@ -35,7 +35,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-4">{parseHtml(profile.intro)}</div>
-          <div className="p-4 flex gap-2 flex-wrap">
+          <div className="p-4 flex gap-2 flex-wrap !pt-0">
             {profile.skills.map((item) => (
               <div
                 className="inline-flex px-2 py-0.5 text-xs border ring-1 bg-themeLightBlue/20 ring-inset ring-themeLightBlue/50 rounded-md text-themeBlue font-bold"
