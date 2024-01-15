@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
-    "@vercel/speed-insights": "^1.0.2",
+    "@vercel/speed-insights": "^1.0.3",
     "clsx": "^2.1.0",
-    "html-react-parser": "^5.0.11",
+    "html-react-parser": "^5.1.1",
     "iconoir-react": "^7.3.0",
     "next": "14.0.4",
     "react": "^18",
@@ -27,7 +27,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "postcss": "^8",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.2",
     "tailwindcss": "^3",
     "typescript": "^5"
   }
