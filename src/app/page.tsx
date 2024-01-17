@@ -76,7 +76,13 @@ export default function Home() {
             {projects.map((project) => (
               <div className="border border-themeLightBlue bg-slate-50 rounded-3xl" key={project.title}>
                 <div className="p-4 flex flex-col">
-                  <Image src={project.image.src} alt={project.image.alt} width={500} height={500} className="w-full rounded-3xl overflow-hidden" />
+                  <Image
+                    src={project.image.src}
+                    alt={project.image.alt}
+                    width={500}
+                    height={500}
+                    className="w-full rounded-3xl overflow-hidden"
+                  />
                   {project.link && (
                     <a
                       href={project.link}
