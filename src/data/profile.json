@@ -26,15 +26,18 @@
     "CSS3",
     "SASS",
     "TailwindCSS",
-    "Javascript",
-    "Typescript",
-    "jQuery",
-    "React.js",
     "Next.js",
-    "Redux.js",
+    "ES6+",
+    "Typescript",
+    "Redux",
+    "Node.js",
     "Git",
     "AWS",
     "Vercel",
-    "Turborepo"
+    "Turborepo",
+    "Web Accessibility",
+    "MJML",
+    "pnpm",
+    "Figma"
   ]
 }
