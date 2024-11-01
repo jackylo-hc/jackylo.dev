@@ -1,6 +1,17 @@
 [
   {
     "logo": {
+      "src": "/assets/logo/hktdc.jpg",
+      "alt": "HKTDC Logo"
+    },
+    "title": "Senior Analyst Programmer",
+    "company": "HKTDC",
+    "year": "Dec 2023 to Present",
+    "location": "Hong Kong",
+    "desc": "Hong Kong Trade Development Council is a non-profit making organization in Hong Kong. <br/><br/> I am responsible for developing and maintaining the HKTDC website and other web portals using TeamSite CMS."
+  },
+  {
+    "logo": {
       "src": "/assets/logo/choco-up.jpg",
       "alt": "Choco Up Logo"
     },
