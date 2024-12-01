@@ -8,8 +8,8 @@ importers:
   .:
     dependencies:
       '@vercel/analytics':
-        specifier: ^1.4.0
-        version: 1.4.0(next@15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
+        specifier: ^1.4.1
+        version: 1.4.1(next@15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
       '@vercel/speed-insights':
         specifier: ^1.1.0
         version: 1.1.0(next@15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
@@ -20,8 +20,8 @@ importers:
         specifier: ^5.1.18
         version: 5.1.18(@types/react@18.2.25)(react@18.2.0)
       iconoir-react:
-        specifier: ^7.10.0
-        version: 7.10.0(react@18.2.0)
+        specifier: ^7.10.1
+        version: 7.10.1(react@18.2.0)
       next:
         specifier: 15.0.3
         version: 15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -51,14 +51,14 @@ importers:
         specifier: 15.0.3
         version: 15.0.3(eslint@9.2.0)(typescript@5.2.2)
       husky:
-        specifier: ^9.1.6
-        version: 9.1.6
+        specifier: ^9.1.7
+        version: 9.1.7
       postcss:
         specifier: ^8
         version: 8.4.31
       prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
+        specifier: ^3.4.1
+        version: 3.4.1
       tailwindcss:
         specifier: ^3
         version: 3.3.3
@@ -483,9 +483,9 @@ packages:
       { integrity: sha512-PChz8UaKQAVNHghsHcPyx1OMHoFRUEA7rJSK/mDhdq85bk+PLsUHUBqTQTFt18VJZbmxBovM65fezlheQRsSDA== }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
 
-  '@vercel/analytics@1.4.0':
+  '@vercel/analytics@1.4.1':
     resolution:
-      { integrity: sha512-eUwWW7l8nPJb0nJmjZuYp9o7YZ9XPj67lU9mEogaPXiFxq/SFB5DMnvQVk4aKcL8kFgotiYdDZWxdiNcWo7cgg== }
+      { integrity: sha512-ekpL4ReX2TH3LnrRZTUKjHHNpNy9S1I7QmS+g/RQXoSUQ8ienzosuX7T9djZ/s8zPhBx1mpHP/Rw5875N+zQIQ== }
     peerDependencies:
       '@remix-run/react': ^2
       '@sveltejs/kit': ^1 || ^2
@@ -1244,15 +1244,15 @@ packages:
     resolution:
       { integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ== }
 
-  husky@9.1.6:
+  husky@9.1.7:
     resolution:
-      { integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A== }
+      { integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA== }
     engines: { node: '>=18' }
     hasBin: true
 
-  iconoir-react@7.10.0:
+  iconoir-react@7.10.1:
     resolution:
-      { integrity: sha512-mrWM0rbV/1o8hcntkc+dmMTts0B6rdkymLb4pxTrbZYPXYVamg42WphK9sp8ZYGzuEFIO40xBSsrwbQ7FW6cXg== }
+      { integrity: sha512-Zqxwx+cUfXSrHWn82DNVWCPLq5RKUcDLevUvl37GdYaB73EJ+eNGdpdifGzhIWZ21U7/z0KVcdOJZp5BNyXzBw== }
     peerDependencies:
       react: ^16.8.6 || ^17 || ^18
 
@@ -1770,9 +1770,9 @@ packages:
       { integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g== }
     engines: { node: '>= 0.8.0' }
 
-  prettier@3.3.3:
+  prettier@3.4.1:
     resolution:
-      { integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew== }
+      { integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg== }
     engines: { node: '>=14' }
     hasBin: true
 
@@ -2470,7 +2470,7 @@ snapshots:
       '@typescript-eslint/types': 8.12.2
       eslint-visitor-keys: 3.4.3
 
-  '@vercel/analytics@1.4.0(next@15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)':
+  '@vercel/analytics@1.4.1(next@15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)':
     optionalDependencies:
       next: 15.0.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
@@ -3244,9 +3244,9 @@ snapshots:
       domutils: 3.1.0
       entities: 4.5.0
 
-  husky@9.1.6: {}
+  husky@9.1.7: {}
 
-  iconoir-react@7.10.0(react@18.2.0):
+  iconoir-react@7.10.1(react@18.2.0):
     dependencies:
       react: 18.2.0
 
@@ -3631,7 +3631,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.3.3: {}
+  prettier@3.4.1: {}
 
   prop-types@15.8.1:
     dependencies:
