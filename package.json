@@ -16,7 +16,7 @@
     "clsx": "^2.1.1",
     "html-react-parser": "^5.2.6",
     "iconoir-react": "^7.11.0",
-    "next": "15.4.2",
+    "next": "15.4.4",
     "react": "^19",
     "react-dom": "^19"
   },
@@ -26,7 +26,7 @@
     "@types/react-dom": "^19",
     "autoprefixer": "^10",
     "eslint": "^9",
-    "eslint-config-next": "15.4.2",
+    "eslint-config-next": "15.4.4",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "postcss": "^8",
