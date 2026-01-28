@@ -1,6 +1,16 @@
 [
   {
     "image": {
+      "src": "/assets/projects/wcghk-website.jpg",
+      "alt": "WCGHK website preview"
+    },
+    "link": "https://www.wcghk.com",
+    "title": "WCGHK Website",
+    "tech": "Next.js | Shadcn UI | Sanity CMS",
+    "desc": "Developed a website for WCGHK using Next.js, Shadcn UI, TailwindCSS and integrated with Sanity CMS. The website is a corporate website for WCGHK."
+  },
+  {
+    "image": {
       "src": "/assets/projects/lnf-website.jpg",
       "alt": "Landor and Fitch website preview"
     },
