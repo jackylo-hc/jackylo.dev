@@ -1,12 +1,11 @@
-import Image from 'next/image';
-import { GithubCircle, Linkedin, Instagram, MapPin, Link } from 'iconoir-react';
-import parseHtml from 'html-react-parser';
-import clsx from 'clsx';
-
-import profile from '@/data/profile.json';
-import experiences from '@/data/experiences.json';
-import projects from '@/data/projects.json';
-import education from '@/data/education.json';
+import clsx from 'clsx'
+import parseHtml from 'html-react-parser'
+import { GithubCircle, Instagram, Link, Linkedin, MapPin } from 'iconoir-react'
+import Image from 'next/image'
+import education from '@/data/education.json'
+import experiences from '@/data/experiences.json'
+import profile from '@/data/profile.json'
+import projects from '@/data/projects.json'
 
 export default function Home() {
   return (
@@ -117,5 +116,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  );
+  )
 }

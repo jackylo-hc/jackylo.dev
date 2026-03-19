@@ -1,11 +1,11 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inconsolata } from 'next/font/google';
-import clsx from 'clsx';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import clsx from 'clsx'
+import type { Metadata } from 'next'
+import { Inconsolata } from 'next/font/google'
 
-const inconsolata = Inconsolata({ subsets: ['latin'], display: 'auto' });
+const inconsolata = Inconsolata({ subsets: ['latin'], display: 'auto' })
 
 export const metadata: Metadata = {
   title: 'Jacky Lo | Software Engineer',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   authors: {
     name: 'Jacky Lo',
   },
-};
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -36,5 +36,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SpeedInsights />
       </body>
     </html>
-  );
+  )
 }
