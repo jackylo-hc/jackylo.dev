@@ -14,14 +14,14 @@
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "clsx": "^2.1.1",
-    "html-react-parser": "^5.2.17",
+    "html-react-parser": "^6.0.1",
     "iconoir-react": "^7.11.0",
-    "next": "16.2.1",
+    "next": "16.2.4",
     "react": "^19",
     "react-dom": "^19"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.8",
+    "@biomejs/biome": "^2.4.12",
     "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
