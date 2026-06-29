@@ -15,7 +15,6 @@
     "expand": "auto",
     "useEditorconfig": true
   },
-  "linter": { "enabled": true, "rules": { "recommended": false } },
   "javascript": {
     "formatter": {
       "jsxQuoteStyle": "double",
@@ -27,6 +26,11 @@
       "quoteStyle": "single",
       "attributePosition": "auto",
       "bracketSpacing": true
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
     }
   },
   "html": { "formatter": { "indentScriptAndStyle": false, "selfCloseVoidElements": "always" } },

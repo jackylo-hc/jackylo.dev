@@ -10,7 +10,7 @@ import projects from '@/data/projects.json'
 export default function Home() {
   return (
     <>
-      <div className="w-full h-1 bg-gradient-to-r from-themeBlue via-themeLightBlue to-themeWhite"></div>
+      <div className="w-full h-1 bg-linear-to-r from-themeBlue via-themeLightBlue to-themeWhite"></div>
       <main className="max-w-2xl mx-auto px-6 py-6 mt-4 md:px-4">
         {/** Profile  */}
         <div className="border border-themeLightBlue bg-slate-50 rounded-3xl">
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className="flex gap-x-4">
               {profile.socialMedia.map((item) => (
-                <a href={item.url} key={item.icon} target="_blank">
+                <a href={item.url} key={item.icon} target="_blank" rel="noopener">
                   {item.icon === 'github' && <GithubCircle className="text-themeOrange" />}
                   {item.icon === 'linkedin' && <Linkedin className="text-themeOrange" />}
                   {item.icon === 'instagram' && <Instagram className="text-themeOrange" />}
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-4">{parseHtml(profile.intro)}</div>
-          <div className="p-4 flex gap-2 flex-wrap !pt-0">
+          <div className="p-4 flex gap-2 flex-wrap pt-0!">
             {profile.skills.map((item) => (
               <div
                 className="inline-flex px-2 py-0.5 text-xs border ring-1 bg-themeLightBlue/20 ring-inset ring-themeLightBlue/50 rounded-md text-themeBlue font-bold"
@@ -87,6 +87,7 @@ export default function Home() {
                       href={project.link}
                       target="_blank"
                       className="mt-2 text-themeBlue font-bold text-xl flex items-center"
+                      rel="noopener"
                     >
                       {project.title} <Link className="ml-2 text-sm" />
                     </a>
