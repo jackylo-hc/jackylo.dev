@@ -1,15 +1,15 @@
 allowBuilds:
   sharp: true
 minimumReleaseAgeExclude:
-  - '@biomejs/biome@2.4.16'
-  - '@biomejs/cli-darwin-arm64@2.4.16'
-  - '@biomejs/cli-darwin-x64@2.4.16'
-  - '@biomejs/cli-linux-arm64-musl@2.4.16'
-  - '@biomejs/cli-linux-arm64@2.4.16'
-  - '@biomejs/cli-linux-x64-musl@2.4.16'
-  - '@biomejs/cli-linux-x64@2.4.16'
-  - '@biomejs/cli-win32-arm64@2.4.16'
-  - '@biomejs/cli-win32-x64@2.4.16'
+  - '@biomejs/biome@2.4.16 || 2.5.12'
+  - '@biomejs/cli-darwin-arm64@2.4.16 || 2.5.12'
+  - '@biomejs/cli-darwin-x64@2.4.16 || 2.5.12'
+  - '@biomejs/cli-linux-arm64-musl@2.4.16 || 2.5.12'
+  - '@biomejs/cli-linux-arm64@2.4.16 || 2.5.12'
+  - '@biomejs/cli-linux-x64-musl@2.4.16 || 2.5.12'
+  - '@biomejs/cli-linux-x64@2.4.16 || 2.5.12'
+  - '@biomejs/cli-win32-arm64@2.4.16 || 2.5.12'
+  - '@biomejs/cli-win32-x64@2.4.16 || 2.5.12'
   - '@next/env@16.3.3'
   - '@next/swc-darwin-arm64@16.3.3'
   - '@next/swc-darwin-x64@16.3.3'
@@ -22,6 +22,8 @@ minimumReleaseAgeExclude:
   - next@16.3.3
   - iconoir-react@7.12.1
   - '@types/node@26.4.0 || 26.4.1'
+  - '@types/react-dom@19.2.7'
+  - postcss@8.5.28
 onlyBuiltDependencies:
   - '@vercel/speed-insights'
   - sharp
