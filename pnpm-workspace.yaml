@@ -24,6 +24,7 @@ minimumReleaseAgeExclude:
   - '@types/node@26.4.0 || 26.4.1 || 26.6.4'
   - '@types/react-dom@19.2.7'
   - postcss@8.5.28
+  - '@vercel/speed-insights@2.1.0'
 onlyBuiltDependencies:
   - '@vercel/speed-insights'
   - sharp
